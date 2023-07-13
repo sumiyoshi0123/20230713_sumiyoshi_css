@@ -1,0 +1,64 @@
+body {
+    width: 1400px;
+    height: 700px;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    color: #00277E;
+    font-weight: bold;
+    height: 100px;
+}
+
+.header__logo {
+    display: inline-block;
+    font-size: 25px;
+    margin: 30px;
+}
+
+.header__navi {
+    display: flex;
+    align-items: center;
+    margin: 0px 0px 0px auto;
+    padding: 0;
+}
+
+.header__navi--list {
+    margin-right: 30px;
+    list-style: none;
+}
+
+.main {
+    display: block;
+    position: relative;
+    height: 600px;
+}
+
+.main__image {
+    display: inline-block;
+    position: absolute;
+    top: 50px;
+    left: 700px;
+    z-index: 10;
+}
+
+.main__text {
+    display: inline-block;
+    position: relative;
+    top: 350px;
+    font-weight: lighter;
+    line-height: 0;
+    margin: 0;
+    font-size: 60px;
+}
+
+.main__part {
+    display: block;
+    position: relative;
+    top: 350px;
+    width: 1000px;
+    height: 180px;
+    background-color: #00277E;
+    z-index: 0;
+}
